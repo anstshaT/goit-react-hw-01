@@ -18,6 +18,8 @@ body {
   padding: 20px;
   min-height: 100vh;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 p {
