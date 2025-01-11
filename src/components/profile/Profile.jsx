@@ -6,23 +6,23 @@ const Profile = ({ name, tag, location, image, stats }) => {
     <div className={clsx(css.profile)}>
       <div className={css.imageDiv}>
         <img src={image} alt="User avatar" className={css.img} />
-        <p>{name}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+        <p className={css.profileName}>{name}</p>
+        <p className={css.avatarInfo}>@{tag}</p>
+        <p className={css.avatarInfo}>{location}</p>
       </div>
 
       <ul className={css.informationUl}>
-        <li>
+        <li className={`${css.infoItems} ${css.leftAngel}`}>
           <span>Followers</span>
-          <span>{stats.followers}</span>
+          <span className={css.spanNumbers}>{stats.followers}</span>
         </li>
-        <li>
+        <li className={`${css.infoItems} ${css.itemBorder}`}>
           <span>Views</span>
-          <span>{stats.views}</span>
+          <span className={css.spanNumbers}>{stats.views}</span>
         </li>
-        <li>
+        <li className={`${css.infoItems} ${css.rightAngel}`}>
           <span>Likes</span>
-          <span>{stats.likes}</span>
+          <span className={css.spanNumbers}>{stats.likes}</span>
         </li>
       </ul>
     </div>

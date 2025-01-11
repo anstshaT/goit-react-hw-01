@@ -15,14 +15,14 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  padding: 20px;
   min-height: 100vh;
+  background-color: #fff;
 }
 
 p {
   color: black;
+  margin: 0;
 }
 
 li {
@@ -31,4 +31,6 @@ li {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

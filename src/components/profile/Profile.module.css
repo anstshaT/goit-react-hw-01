@@ -1,9 +1,79 @@
 .profile {
-  width: 422px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #fafafa;
-  padding: 16px 130px;
+  padding-top: 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* first part of card */
+.imageDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
 }
 
 .img {
   height: 161px;
+  background-color: #2a2a2a;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.profileName {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.avatarInfo {
+  font-size: 24px;
+  color: #808080;
+  font-weight: 400;
+}
+
+/* second part of card */
+.informationUl {
+  display: flex;
+}
+
+.infoItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+  width: 139px;
+  border-top: 2px solid #808080;
+  padding: 18px 0;
+}
+
+li span {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* additional classes */
+
+.spanNumbers {
+  font-weight: 700;
+}
+
+.itemBorder {
+  border-left: 2px solid #808080;
+  border-right: 2px solid #808080;
+}
+
+.rightAngel {
+  border-bottom-right-radius: 5px;
+}
+
+.leftAngel {
+  border-bottom-left-radius: 5px;
 }
