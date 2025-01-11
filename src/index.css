@@ -14,12 +14,12 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 20px;
-  min-height: 100vh;
+  min-width: 100vh;
   background-color: #fff;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 p {
